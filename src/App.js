@@ -10,6 +10,8 @@ import Child1 from './Component/Child1';
 
 function App() {
   return ( <>
+  
+         {/* // day1*/}
     <ol type="1">
     <li>What is React? What are its features</li> React was created by Jordane Walke , a software engineer at facebook in the year 2011 and it was deployed first at the facebook newsfeed and later it was used in facebook and instagram. React is a open source front end js library . It follows the component based approach for building reusable  UI components speacially for single page application
     and it is used for developing interactive view layer of web and mobile application.
@@ -41,6 +43,8 @@ function App() {
      4.	Unmounting Phase
      Each phase contains some lifecycle methods thast are specific to the particular phase
          
+
+         {/* // day2 */}
      <ul>
              <li>What is Single Page Application or SPA? Explain the difference between SPA and MPA</li>
              <li>in terms of speed and performance SPA no reloading is needed that is equal to high speed and responsivenss</li>
@@ -91,7 +95,28 @@ function App() {
                 <li></li>
             </ul>
          
+
          
+         {/* // day3 */}
+         <li>How to create Reusable components in React?</li>
+        <ul>
+            <li>through the props method</li>
+            <li>using parent components</li>
+        </ul>
+        <li>What are the three principles that Redux follows?</li>
+        <ul>
+            <li>single source of truth</li>
+            <li>state is read only</li>
+            <li>changes are made with pure functions</li>
+        </ul>
+        <li>Explain difference between Browser Route, Route, Routes</li>
+        <ul>
+            <li>browser router-BrowserRouter is a router implementation that uses the HTML5 history API to keep our UI in sync with the url. It is the parent component that is used to store all the other components.
+            </li>
+            <li>Routes- It is the new component introduced in the V6 and a upgrade of a component. It is used to group all the route if there are more than 1 route components and routes are chosen based on best match.
+            </li>
+            <li>Route- it is the conditionally shown component that renders some ui when path is matched to current url</li>
+        </ul>
          
          </ol>
 
